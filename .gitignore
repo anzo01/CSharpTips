@@ -1,0 +1,8 @@
+
+*.suo
+bin/
+obj/
+*.user
+_ReSharper.*
+*.bak
+*.cache
