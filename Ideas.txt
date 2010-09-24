@@ -1,0 +1,74 @@
+List of ideas of what to cover
+==============================
+
+re-throw
+
+Generics and primitive types
+
+Nullable types: int?
+
+LINQ and XML
+
+LINQ and SQL
+
+Anonymous Types
+
+Delegates
+
+GAC
+
+Signed Assemblies
+
+What is an Assembly
+
+CodeDOM and Dynamic Code Generation
+
+T4 Template Files
+
+MSBuild and Solution/Project Files
+
+IIS/ASP.NET
+- DLL Reloads
+
+Yield return
+- Show infinite nuber sequence
+
+Scope
+- No package scope
+- Assemble scope
+
+Virtual Methods / Override
+
+ADO.NET
+
+SMO
+
+NAnt
+
+UNIT Testing
+
+XML Documentation
+
+COM Integration
+- Show SMO to Excel
+
+cast vs as
+
+?? operator
+
+unsigned (uint etc)
+
+decimal type
+
+Anonymous types
+
+ref and out method parameters
+
+using
+
+partial classes
+- partial methods
+
+#if
+#region
+
