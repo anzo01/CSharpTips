@@ -1,7 +1,10 @@
 List of ideas of what to cover
 ==============================
 
+Exception Handling
+------------------
 re-throw
+No declared exceptions
 
 Generics and primitive types
 
@@ -72,3 +75,9 @@ partial classes
 #if
 #region
 
+LINQ
+----
+
+Select against objects vs SQL
+
+joins, where, Single()
