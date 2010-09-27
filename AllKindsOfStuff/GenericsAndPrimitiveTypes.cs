@@ -15,7 +15,7 @@ namespace AllKindsOfStuff
             IList<Coordinate> intList = new List<Coordinate>();
 
             for (int index = 0; index < 1000; index++) {
-                intList.Add(new Coordinate { X = index, Y = index*2 });}
+                intList.Add(new Coordinate { X = index, Y = index*2 });
             }
         }
     }

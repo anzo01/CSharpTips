@@ -34,7 +34,7 @@ namespace ReportsApplication {
                 Name = "DataModel_Customer"
                                            };
             lr.DataSources.Add(ds1);
-            lr.DataSources.Add(new ReportDataSource("DataModel_Order", new ObjectDataSource()));
+            lr.DataSources.Add(new ReportDataSource("DataModel_Order"));
 
 
             string mimeType;
