@@ -11,7 +11,7 @@ namespace SimpleLinq
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             var customerDb = CustomerDb.Create();
 
@@ -25,14 +25,13 @@ namespace SimpleLinq
             }
 
             var q2 = from customer in customerDb.Customers
-                    from order in customer.Orders
-                    where order.OrderId == "999"
-                    select new {
-                                   CustomerName = customer.Name,
-                                   NumberOfOrders = customer.Orders.Count()
-                    };
-            foreach (var data in q2)
-            {
+                     from order in customer.Orders
+                     where order.OrderId == "999"
+                     select new {
+                        CustomerName = customer.Name,
+                        NumberOfOrders = customer.Orders.Count()
+                     };
+            foreach (var data in q2) {
                 Console.Out.WriteLine("Customer = " + data.CustomerName + ", count = " + data.NumberOfOrders);
             }
 
@@ -40,9 +39,6 @@ namespace SimpleLinq
             TextWriter w = new StringWriter();
             serializer.Serialize(w, customerDb);
             Console.Out.WriteLine("XML = " + w);
-
-            Console.Out.WriteLine("Press any key to close");
-            Console.In.ReadLine();
         }
 
     }

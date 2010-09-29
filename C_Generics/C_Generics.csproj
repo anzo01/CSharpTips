@@ -5,11 +5,11 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>9.0.30729</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{858A9C33-179D-4F76-A36B-2989244E4D37}</ProjectGuid>
+    <ProjectGuid>{65C701EF-F961-40C2-9310-1B519D1174AE}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>AllKindsOfStuff</RootNamespace>
-    <AssemblyName>AllKindsOfStuff</AssemblyName>
+    <RootNamespace>C_Generics</RootNamespace>
+    <AssemblyName>C_Generics</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -45,14 +45,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DelegatesAndMore.cs" />
-    <Compile Include="GenericsAndPrimitiveTypes.cs" />
-    <Compile Include="NullableTypes.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="UsingAndIDispose.cs" />
-    <Compile Include="VirtualMethods.cs" />
-    <Compile Include="YieldReturn.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

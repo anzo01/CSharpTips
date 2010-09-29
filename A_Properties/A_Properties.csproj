@@ -5,13 +5,14 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>9.0.30729</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{858A9C33-179D-4F76-A36B-2989244E4D37}</ProjectGuid>
+    <ProjectGuid>{2F0873F4-6CD1-44C6-B7AD-8077494378A7}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>AllKindsOfStuff</RootNamespace>
-    <AssemblyName>AllKindsOfStuff</AssemblyName>
+    <RootNamespace>A_Properties</RootNamespace>
+    <AssemblyName>A_Properties</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <StartupObject>A_Properties.Program</StartupObject>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -45,14 +46,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DelegatesAndMore.cs" />
-    <Compile Include="GenericsAndPrimitiveTypes.cs" />
-    <Compile Include="NullableTypes.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="UsingAndIDispose.cs" />
-    <Compile Include="VirtualMethods.cs" />
-    <Compile Include="YieldReturn.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
