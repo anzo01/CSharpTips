@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 
@@ -9,9 +10,9 @@ namespace B_NullableTypes
     {
         private static void Print(int? value) {
             if (value == null) {
-                Console.Out.WriteLine("Value = NULL");
+                Debug.Print("Value = NULL");
             } else {
-                Console.Out.WriteLine("Value = " + value);
+                Debug.Print("Value = " + value);
             }
         }
 
@@ -24,7 +25,7 @@ namespace B_NullableTypes
             Print(counter);
             
             counter = null;
-            counter += 45;
+            counter += 45; // !!!!!
             Print(counter);
 
             counter = counter ?? 67;
