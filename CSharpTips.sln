@@ -37,6 +37,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "G_PartialClasses", "G_Parti
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LINQ", "LINQ", "{B37DE23E-D327-412F-8D7C-744655F7D826}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T4Test", "T4Test\T4Test.csproj", "{AC9D3D2D-59A3-4B39-AC6B-DD829C92708E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{CB48BD6F-4DB1-4AAC-8ED3-21926A974556}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CB48BD6F-4DB1-4AAC-8ED3-21926A974556}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CB48BD6F-4DB1-4AAC-8ED3-21926A974556}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC9D3D2D-59A3-4B39-AC6B-DD829C92708E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC9D3D2D-59A3-4B39-AC6B-DD829C92708E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC9D3D2D-59A3-4B39-AC6B-DD829C92708E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC9D3D2D-59A3-4B39-AC6B-DD829C92708E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
